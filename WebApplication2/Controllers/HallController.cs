@@ -9,6 +9,7 @@ namespace WebApplication2.Controllers
 {
     public class HallController : Controller
     {
+        int a;
         HallContext _ORM = null;
         public HallController(HallContext ORM)
         {
